@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Constants
-SERVICE_URL=http://closure-compiler.appspot.com/compile
+SERVICE_URL=https://closure-compiler.appspot.com/compile
 #NEWFILE="c`date +"%d%m%y"`.js"
 #this specifies last arg as destination 
 for NEWFILE in $*; do :; done
