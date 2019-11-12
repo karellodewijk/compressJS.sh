@@ -72,7 +72,7 @@ else:
 
 	filename = "'${NEWFILE}'"
 	with open(filename, "w") as f:
-		f.write(data["compiledCode"])
+		f.write(data["compiledCode"].encode("utf-8"))
 
 	print "\nBuild file %s created.\n" % filename
 ' $@
